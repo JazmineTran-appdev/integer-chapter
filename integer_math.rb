@@ -4,3 +4,5 @@
 # 
 # 4
 
+number = 365 % 7
+p number

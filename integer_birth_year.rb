@@ -20,4 +20,7 @@
 # Then the output should be:
 # "Nice! You were born in approximately 2013."
 
-p "How old are you?"
+p "How old are you? "
+age = gets.chomp.to_i
+year = 2023 - age
+puts "Nice! You were born in approximately #{year}."

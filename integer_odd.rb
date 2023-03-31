@@ -9,4 +9,6 @@
 #   12
 #   false
 
-p "Enter an odd number:"
+p "Enter an odd number: "
+number = gets.chomp.to_i
+puts number.odd?
